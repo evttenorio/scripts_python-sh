@@ -1,2 +1,1 @@
-# scripts_python-sh
-Scripts em Python e Shell Script
+# Scripts em Python e Shell Script
