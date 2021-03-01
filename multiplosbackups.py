@@ -11,7 +11,7 @@ for linha in diretoriosTXT:
   string_linha = linha.strip()
   lista_da_Linha = string_linha.split()
   array_de_Listas.append(lista_da_Linha)
-  #diretoriosTXT.close()  
+  diretoriosTXT.close()  
 
 for caminho in array_de_Listas:
   origem = str(caminho[:1]).strip('[').strip(']').strip('"').strip(',')
